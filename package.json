@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon api/server.js",
     "start": "node api/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-start": "node api/server.js"
   },
   "keywords": [],
   "type": "module",
